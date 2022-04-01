@@ -1,0 +1,40 @@
+.DS_Store
+.ruby-version
+
+# Xcode
+build/
+.build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+DerivedData
+*.xcuserstate
+
+*.qbs.user
+*.qbs.user.*
+*.autosave
+
+fastlane/report.xml -- temporary fastlane profiling data
+/fastlane/Error*.png -- temporary `deliver` error output
+/fastlane/Preview.html -- temporary `deliver` preview output
+/fastlane/screenshots/*/*-portrait.png -- generated screenshots
+/fastlane/screenshots/*/*-landscape.png -- generated screenshots
+/fastlane/screenshots/*/*-portrait_framed.png -- generated screenshots, framed
+/fastlane/screenshots/*/*-landscape_framed.png -- generated screenshots, framed
+/fastlane/screenshots/screenshots.html -- generated screenshot index
+/fastlane/report.xml
+/fastlane/test_output
+Preview.html
+
+# Intellij
+
+.idea/
