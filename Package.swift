@@ -29,18 +29,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyApps",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.3/FleksyApps.xcframework.zip",
-            checksum: "29e6d405b379b7ebb421e9a260088ee6b028ce4f3b929bdcfe81fc022a860b9e"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.4/FleksyApps.xcframework.zip",
+            checksum: "ad6fe69d9f9b20d2ace273a0649953d0ea3ee5b605762874a242a8d59addced1"
         ),
         .binaryTarget(
             name: "FleksyKeyboardSDK",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.3/FleksyKeyboardSDK.xcframework.zip",
-            checksum: "fb8c4f5364654e2c5f48b62bf99f62e1d71f8f833935ef8e99fa071bae0a82a6"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.4/FleksyKeyboardSDK.xcframework.zip",
+            checksum: "a8d1deb107c938a56ff3549c34dea6ba6613a4640177efe4b659ca75f188da3a"
         ),
         .binaryTarget(
             name: "ServiceFramework",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.3/ServiceFramework.xcframework.zip",
-            checksum: "e9f9a615422e84bc9a775d819389c4aedee7cc31a4cf46bc93eb5c211d24ad8a"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.0.4/ServiceFramework.xcframework.zip",
+            checksum: "e4d92019f6848fd7a5f2e5ee7c68abc084f9cacae06505f16bfcca4049193e78"
         ),
     ]
 )
