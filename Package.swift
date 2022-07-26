@@ -33,13 +33,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyApps",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.1.2/FleksyApps.xcframework.zip",
-            checksum: "e7be9f77b974f2a914f10756ca61d50df78bad9a719e76bbb08d88409d062585"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.1.3/FleksyApps.xcframework.zip",
+            checksum: "78bf569f09f254c6c7591b8d1b3ab6371e3e8c58d42c1bd900d35d1dc8656827"
         ),
         .binaryTarget(
             name: "FleksyKeyboardSDK",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.1.2/FleksyKeyboardSDK.xcframework.zip",
-            checksum: "d607a043185cdb6fad1b5e8febafb6406db0395cb0d0c1ba1580c3432d505923"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.1.3/FleksyKeyboardSDK.xcframework.zip",
+            checksum: "5bc7d96b6e4e2d1ab733ef16096f3b7ebf176ed4e9516d76ca2b912b0cba86ac"
         ),
     ]
 )
