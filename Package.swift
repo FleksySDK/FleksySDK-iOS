@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-            exact: "3.11.7"
+            exact: "3.12.4"
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-CoreServices",
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
-            exact: "0.9.1"
+            exact: "1.0.0"
         )
     ],
     targets: [
@@ -37,8 +37,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyKeyboardSDK",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.8.4/FleksyKeyboardSDK.xcframework.zip",
-            checksum: "b0fe3e1ecfac92398c2e3dd1429fd3981d0725c40f0fa1c0b0f65a31a168d42c"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.9.0/FleksyKeyboardSDK.xcframework.zip",
+            checksum: "5922133a8be863153daa137beebfac02210561b65b1dd9aac3d8218e144a8dbe"
         ),
     ]
 )
