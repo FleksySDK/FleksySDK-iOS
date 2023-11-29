@@ -37,8 +37,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyKeyboardSDK",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.18.0/FleksyKeyboardSDK.xcframework.zip",
-            checksum: "3effd2bfe69041aedaccf10279558b5a306ec9bbf49f584de7318e7de7fa0946"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.18.1/FleksyKeyboardSDK.xcframework.zip",
+            checksum: "0b296cda0fe572fee0629ab1ed567c8ea7e777ac4fef528f6520e003ec6758c7"
         ),
     ]
 )
