@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "FleksySDK",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "FleksySDK",
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
-            exact: Version(1, 3, 2)
+            exact: Version(1, 4, 0)
         )
     ],
     targets: [
@@ -37,8 +37,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FleksyKeyboardSDK",
-            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v4.30.0/FleksyKeyboardSDK.xcframework.zip",
-            checksum: "f50be9aeec66ba3d7f5026e34e2a005dc1aaa7054b9d55fc0b883c3ed161a6a0"
+            url: "https://spm.fleksy.com/FleksyKeyboardSDK/v5.0.0/FleksyKeyboardSDK.xcframework.zip",
+            checksum: "d5a5c0bf9ccd76a685530cf2b529353976eb2b3f82ec5597e10ed33718cdaa7f"
         ),
     ]
 )
